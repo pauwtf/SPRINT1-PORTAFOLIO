@@ -1,0 +1,95 @@
+.container{
+    width: 90%;
+}
+.headerPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerPrincipal-nav {
+    display: flex;
+    margin: 19px;
+}
+
+.contenido-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-skills {
+    display: flex;
+    width: 23%;
+}
+.contenido-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-hobbies {
+    display: flex;
+    width: 23%;
+}
+.contenido-formacion {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-formacion {
+    display: flex;
+    width: 23%;
+
+}
+
+
+/*responsive*/
+@media screen and (max-width:1000px) {
+
+
+    .headerPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenidoPrincipal-cursos {
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos-link {
+        width: 100%;
+    }
+
+    .rodapePrincipal-navMap-list {
+        height: auto;
+        flex-wrap: nowrap;
+    }
+
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-contatoForm {
+        width: 100%;
+    }
+
+    .rodapePrincipal-patrocinadores-list {
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .rodapePrincipal-contatoForm-fieldset {
+        justify-content: center;
+    }
+    .headerPrincipal-nav-link-app {
+        order: -1;
+    }
+    .videoSobre .container {
+        flex-direction: column;
+    }
+}

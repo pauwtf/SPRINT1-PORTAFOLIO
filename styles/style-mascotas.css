@@ -1,0 +1,79 @@
+.tres{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+	text-align: center;
+	width: 100%;
+}
+.mascotas{
+	width: 70%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.fotos-mascotas{
+	display: flex;
+	flex-direction: row;
+}
+.titulo-pets{
+	font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+	width: 80%;
+	margin-bottom: 25px;
+	margin-left: 150px;
+}
+.contenido-pets{
+	width: 70%;
+	margin-bottom: 20px;
+	margin-left: 150px;
+	text-align: left;
+}
+.new-pic{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+	justify-items: auto;
+	flex-direction: row;
+	display: flex;
+	transition: 1s all;
+}
+.new-pic:hover {
+	filter: opacity(.5);
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+}
+.michi-pic{
+	position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+	justify-items: auto;
+	flex-direction: row;
+	display: flex;
+	transition: 1s all;
+}
+.michi-pic:hover {
+	filter: opacity(.5);
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+}
+.foto-new img{
+    width: 100%;
+    height: auto;
+}
+.foto-michi img{
+	width: 100%;
+    height: auto;
+}

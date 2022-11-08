@@ -1,0 +1,24 @@
+.dos{
+	width: auto;
+	height: 100%;
+	background-color: #FFC87C;
+	margin-top: 20px;
+    display: flex;
+	flex-direction: column;
+}
+.titulo-aboutme{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+	width: 70%;
+	margin-bottom: 25px;
+	margin-left: 200px;
+	padding-top: 20px;
+}
+.contenido-aboutme, .hobbies{
+	width: 60%;
+	margin-bottom: 20px;
+	margin-left: 200px;
+	text-align: left;
+}
+
